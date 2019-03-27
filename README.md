@@ -21,3 +21,4 @@
 1. [PNG图片压缩原理解析--屌丝的眼泪](https://juejin.im/post/5c8e4feb6fb9a070aa5ce200)
 2. [图片懒加载](https://juejin.im/post/5bbc60e8f265da0af609cd04)
 3. [new FormData() 前端上传文件图片到服务器](https://juejin.im/post/5a43b10c518825146b10d275)
+4. [vue中的权限管理](https://mp.weixin.qq.com/s/b-ehMDzpV5t4C47JvN4QmA)
