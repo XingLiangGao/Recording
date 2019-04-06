@@ -23,3 +23,4 @@
 5. [2019年Node趋势解读：大前端如何与Node结合？](https://mp.weixin.qq.com/s/e_imK5d3QH-t6YJNQUIZOQ)
 5. [js模块化](https://github.com/gyxyl/CG-Weekly/tree/master/static/js%E6%A8%A1%E5%9D%97%E5%8C%96)
 6. [socket.io聊天室](https://github.com/gyxyl/CG-Weekly/tree/master/static/socket.io)
+7. [promise、async异步流程](https://github.com/gyxyl/CG-Weekly/tree/master/static/%E5%BC%82%E6%AD%A5)
