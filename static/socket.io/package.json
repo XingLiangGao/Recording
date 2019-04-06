@@ -1,0 +1,9 @@
+{
+    "name": "socket",
+    "version": "1.0.1",
+    "dependencies": {
+        "express": "^4.16.4",
+        "mysql": "^2.16.0",
+        "socket.io": "^2.2.0"
+    }
+}

@@ -1,0 +1,124 @@
+<script>
+/*Promise
+setTimeout(function () {
+    console.log(2)   
+})
+var a = new Promise(function(resolve, reject) {
+    console.log(5)
+    resolve();
+    reject(4);
+})
+a.then(function() {
+    setTimeout(function() {
+        console.log(4)
+    })
+})
+a.catch(function(err) {
+    console.log(err)
+})
+setTimeout(function() {
+    console.log(3)
+})
+*/
+
+/* async
+async function a() {
+    var c = await b();
+    var d = await e();
+    return c + d;
+}
+function b() {
+    return new Promise(function(resolve, reject) {
+        setTimeout(function() {
+            resolve(1);
+        }, 1000)
+    })
+}
+function e() {
+    return new Promise(function(resolve, reject) {
+        setTimeout(function() {
+            resolve(4);
+        }, 3000)
+    })
+}
+a().then(function(res) {
+    console.log(res)
+}).catch(function(err) {
+    console.log(err)
+})
+*/
+
+(function() {
+    function asy() {
+        this.promiseArray = [];
+    }
+    asy.prototype.on = function(fn) {
+        //async
+        var a = new Promise(function(resolve, reject) {
+            fn(resolve, reject)
+        })
+        async function b() {
+            var res = await a;
+            return res;
+        }
+        return b();
+
+        //Promise
+        // return new Promise(function(resolve, reject) {
+        //     fn(resolve, reject);
+        // })
+    }
+    asy.prototype.all = function() {
+        //数组化
+        var _arg = Array.prototype.slice.call(arguments);
+        for (let i = 0; i < _arg.length; i++) {
+            //新建promise对象，并存入队列等待
+            this.promiseArray.push(new Promise(function(resolve, reject) {
+                _arg[i](resolve, reject)
+            }))   
+        }
+        //链式调用
+        return this;
+    }
+    asy.prototype.down = function() {
+        var _arg = Array.prototype.slice.call(arguments);
+        //分别给数组里的promise加上回调
+        for (let i = 0; i < _arg.length; i++) {
+            //因为then是异步的，所以使用闭包
+            this.promiseArray[i].then((function(arg) {
+                return function(res) {
+                    arg(res);
+                }
+            })(_arg[i]));
+        }
+    }
+    //接口
+    function getasy() {
+        return new asy();
+    }
+    var asyob = getasy();
+    function fn1(resolve, reject) {
+        setTimeout(function() {
+            resolve(1);
+        },1000)
+    }
+    function fn2(resolve, reject) {
+        setTimeout(function() {
+            resolve(3);
+        }, 3000)
+    }
+    function callback1(res){
+        console.log(res, 1)
+    }
+    function callback2(res){
+        console.log(res, 3)
+    }
+    asyob.on(fn1).then(function(res) {
+        console.log(res)
+    }).catch(function(err) {
+        console.log(err)
+    })
+
+    asyob.all(fn1, fn2).down(callback1, callback2)
+})()
+</script>

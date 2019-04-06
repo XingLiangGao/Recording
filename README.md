@@ -20,3 +20,4 @@
 2. [图片懒加载](https://juejin.im/post/5bbc60e8f265da0af609cd04)
 3. [new FormData() 前端上传文件图片到服务器](https://juejin.im/post/5a43b10c518825146b10d275)
 4. [vue中的权限管理](https://mp.weixin.qq.com/s/b-ehMDzpV5t4C47JvN4QmA)
+5. [2019年Node趋势解读：大前端如何与Node结合？](https://mp.weixin.qq.com/s/e_imK5d3QH-t6YJNQUIZOQ)
