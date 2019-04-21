@@ -21,3 +21,13 @@
 3. [new FormData() 前端上传文件图片到服务器](https://juejin.im/post/5a43b10c518825146b10d275)
 4. [vue中的权限管理](https://mp.weixin.qq.com/s/b-ehMDzpV5t4C47JvN4QmA)
 5. [2019年Node趋势解读：大前端如何与Node结合？](https://mp.weixin.qq.com/s/e_imK5d3QH-t6YJNQUIZOQ)
+6. [js模块化](https://github.com/gyxyl/CG-Weekly/tree/master/static/js%E6%A8%A1%E5%9D%97%E5%8C%96)
+7. [socket.io聊天室](https://github.com/gyxyl/CG-Weekly/tree/master/static/socket.io)
+8. [promise、async异步流程](https://github.com/gyxyl/CG-Weekly/tree/master/static/%E5%BC%82%E6%AD%A5)
+
+## 2019-04
+
+​	1.[ES6、ES7、ES8、ES9、ES10新特性一览](<https://juejin.im/post/5ca2e1935188254416288eb2?utm_source=gold_browser_extension>)
+
+​	2.[春招季如何横扫 Javascript 面试核心考点(基础版)？](<https://juejin.im/post/5c6ad9fde51d453c356e37d1>)
+
