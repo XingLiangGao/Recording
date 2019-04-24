@@ -1,6 +1,6 @@
 # CG-Weekly
 
-![weekly-banner](https://raw.githubusercontent.com/Tnfe/TNFE-Weekly/master/assets/weekly-banner.png "weekly-banner")
+![weekly-banner](/assets/banner.jpg)
 
 前端行业发展飞速，新技术如雨后春笋般快速出现，尤其是各种小程序陆续推出，相关的信息、文章也铺天盖地的遍布在各处，我们有时候会困惑，不知道哪些信息对于自己是有价值的，那么CG团队启动了这个周刊项目，为所有的前端开发人员整理出小程序相关以及其它web前端技术领域的精品内容。
 
@@ -31,3 +31,5 @@
 ​2. [春招季如何横扫 Javascript 面试核心考点(基础版)？](<https://juejin.im/post/5c6ad9fde51d453c356e37d1>)
 3. [Node.js 框架对比之 Express VS Koa](https://segmentfault.com/a/1190000008314332)
 4. [前端开发者必备的 Nginx 知识](https://mp.weixin.qq.com/s/BA_JZ_kMBFZBE7jjQDNc1Q)
+4. [基于express搭建的node简易后台管理](https://github.com/gyxyl/CG-Weekly/tree/master/static/nodejs)
+5. [koa-demo](https://github.com/gyxyl/CG-Weekly/tree/master/static/koa-demo)
