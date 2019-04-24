@@ -1,0 +1,1 @@
+var oImage = document.getElementById('img')
