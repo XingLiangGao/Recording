@@ -1,6 +1,6 @@
 # CG-Weekly
 
-![weekly-banner](https://raw.githubusercontent.com/Tnfe/TNFE-Weekly/master/assets/weekly-banner.png "weekly-banner")
+![weekly-banner](https://github.com/gyxyl/CG-Weekly/tree/master/assets/banner.jpg "weekly-banner")
 
 前端行业发展飞速，新技术如雨后春笋般快速出现，尤其是各种小程序陆续推出，相关的信息、文章也铺天盖地的遍布在各处，我们有时候会困惑，不知道哪些信息对于自己是有价值的，那么CG团队启动了这个周刊项目，为所有的前端开发人员整理出小程序相关以及其它web前端技术领域的精品内容。
 
@@ -28,6 +28,6 @@
 ## 2019-04
 
 1. [ES6、ES7、ES8、ES9、ES10新特性一览](<https://juejin.im/post/5ca2e1935188254416288eb2?utm_source=gold_browser_extension>)
-
 2. [春招季如何横扫 Javascript 面试核心考点(基础版)？](<https://juejin.im/post/5c6ad9fde51d453c356e37d1>)
-
+3. [基于express搭建的node简易后台管理](https://github.com/gyxyl/CG-Weekly/tree/master/static/nodejs)
+4. [koa-demo](https://github.com/gyxyl/CG-Weekly/tree/master/static/koa-demo)
