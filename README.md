@@ -33,3 +33,4 @@
 4. [前端开发者必备的 Nginx 知识](https://mp.weixin.qq.com/s/BA_JZ_kMBFZBE7jjQDNc1Q)
 4. [基于express搭建的node简易后台管理](https://github.com/gyxyl/CG-Weekly/tree/master/static/nodejs)
 5. [koa-demo](https://github.com/gyxyl/CG-Weekly/tree/master/static/koa-demo)
+6. [Nunjucks](https://github.com/gyxyl/CG-Weekly/tree/master/static/use-nunjucks)
