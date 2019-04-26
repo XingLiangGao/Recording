@@ -31,6 +31,9 @@
 2. [春招季如何横扫 Javascript 面试核心考点(基础版)？](<https://juejin.im/post/5c6ad9fde51d453c356e37d1>)
 3. [Node.js 框架对比之 Express VS Koa](https://segmentfault.com/a/1190000008314332)
 4. [前端开发者必备的 Nginx 知识](https://mp.weixin.qq.com/s/BA_JZ_kMBFZBE7jjQDNc1Q)
-4. [基于express搭建的node简易后台管理](https://github.com/gyxyl/CG-Weekly/tree/master/static/nodejs)
-5. [koa-demo](https://github.com/gyxyl/CG-Weekly/tree/master/static/koa-demo)
-6. [Nunjucks](https://github.com/gyxyl/CG-Weekly/tree/master/static/use-nunjucks)
+5. [基于express搭建的node简易后台管理](https://github.com/gyxyl/CG-Weekly/tree/master/static/nodejs)
+6. [koa-demo](https://github.com/gyxyl/CG-Weekly/tree/master/static/koa-demo)
+7. [Nunjucks](https://github.com/gyxyl/CG-Weekly/tree/master/static/use-nunjucks)
+8. [可能是最全的前端动效库汇总](<https://juejin.im/post/5cc089eae51d456e7d189f9d?utm_source=gold_browser_extension>)
+9. [【前端词典】分享 8 个有趣且实用的 API](https://juejin.im/post/5c92446b6fb9a070c022f0e2)
+
