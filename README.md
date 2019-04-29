@@ -37,4 +37,4 @@
 8. [可能是最全的前端动效库汇总](<https://juejin.im/post/5cc089eae51d456e7d189f9d?utm_source=gold_browser_extension>)
 9. [【前端词典】分享 8 个有趣且实用的 API](https://juejin.im/post/5c92446b6fb9a070c022f0e2)
 10. [CSS 自定义属性：基础篇](https://zhuanlan.zhihu.com/p/25714131)
-11. [JS通用代码](https://github.com/gyxyl/CG-Weekly/tree/master/static/use-nunjucks)
+11. [JS通用代码](https://github.com/gyxyl/CG-Weekly/blob/master/static/%E8%A3%8513%E7%9A%84JS%E4%BB%A3%E7%A0%81.md)
