@@ -38,3 +38,4 @@
 9. [【前端词典】分享 8 个有趣且实用的 API](https://juejin.im/post/5c92446b6fb9a070c022f0e2)
 10. [CSS 自定义属性：基础篇](https://zhuanlan.zhihu.com/p/25714131)
 11. [JS通用代码](https://github.com/gyxyl/CG-Weekly/blob/master/static/%E8%A3%8513%E7%9A%84JS%E4%BB%A3%E7%A0%81.md)
+12. [函数式编程入门教程](http://www.ruanyifeng.com/blog/2017/02/fp-tutorial.html)
