@@ -46,3 +46,12 @@
 3. [前端工程师面试必备（持续更新中) ](<https://juejin.im/post/5cd0bdfc6fb9a031f10ca08c?utm_source=gold_browser_extension>)
 4. [【前端词典】提高幸福感的 9 个 CSS 技巧 ](<https://juejin.im/post/5cb45a06f265da03474df54e>)
 
+## 许可
+
+由贡献者编写部分的许可如下：
+
+[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc-sa/4.0)
+
+> 资料仅供参考，请自己判断其适用性。
+
+其他部分的版权归属于其各自的作者。
