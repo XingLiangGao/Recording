@@ -43,3 +43,6 @@
 
 1. [函数式编程入门教程](http://www.ruanyifeng.com/blog/2017/02/fp-tutorial.html)
 2. [useEffect 完整指南 作者:Dan Abramov](https://overreacted.io/zh-hans/a-complete-guide-to-useeffect/)
+3. [前端工程师面试必备（持续更新中) ](<https://juejin.im/post/5cd0bdfc6fb9a031f10ca08c?utm_source=gold_browser_extension>)
+4. [【前端词典】提高幸福感的 9 个 CSS 技巧 ](<https://juejin.im/post/5cb45a06f265da03474df54e>)
+
