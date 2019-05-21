@@ -51,6 +51,7 @@
 9. [vue组件间通信六种方式（完整版）](<https://juejin.im/post/5cde0b43f265da03867e78d3?utm_source=gold_browser_extension>)
 10. [正则表达式不要背](<https://juejin.im/post/5cdcd42551882568651554e6?utm_source=gold_browser_extension>)
 11. [关于移动端适配，你必须要知道的](<https://juejin.im/post/5cddf289f265da038f77696c?utm_source=gold_browser_extension>)
+12. [gulp](https://github.com/gyxyl/CG-Monthly/tree/master/static/gulp)
 
 ## 许可
 
