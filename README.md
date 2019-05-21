@@ -46,6 +46,11 @@
 4. [【前端词典】提高幸福感的 9 个 CSS 技巧 ](<https://juejin.im/post/5cb45a06f265da03474df54e>)
 5. [vue 路由 按需 keep-alive](https://juejin.im/post/5cdcbae9e51d454759351d84)
 6. [真正解决iframe高度自适应问题](https://segmentfault.com/a/1190000014586956?utm_source=tag-newest)
+7. [手摸手，带你用vue撸后台 系列五(v4.0新版本)](<https://juejin.im/post/5c92ff94f265da6128275a85?utm_source=gold_browser_extension>)
+8. [前端基础篇之HTTP协议](<https://juejin.im/post/5cd0438c6fb9a031ec6d3ab2?utm_source=gold_browser_extension>)
+9. [vue组件间通信六种方式（完整版）](<https://juejin.im/post/5cde0b43f265da03867e78d3?utm_source=gold_browser_extension>)
+10. [正则表达式不要背](<https://juejin.im/post/5cdcd42551882568651554e6?utm_source=gold_browser_extension>)
+11. [关于移动端适配，你必须要知道的](<https://juejin.im/post/5cddf289f265da038f77696c?utm_source=gold_browser_extension>)
 
 ## 许可
 
