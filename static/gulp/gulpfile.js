@@ -39,9 +39,12 @@ gulp.task('minifyImage', function() {
 
 //压缩html以及重命名
 gulp.task('minifyHtml', function() {
-    return gulp.src('./src/index.html')
+    return gulp.src('./src/*.html')
     .pipe(htmlmin({collapseWhitespace: true}))
-    .pipe(rename('main.html'))
+    .pipe(rename(function(path) {
+        path.basename += "2";
+        path.extname = ".html";
+    }))
     .pipe(gulp.dest('./dist/'));
 })
 
