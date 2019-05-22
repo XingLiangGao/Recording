@@ -98,3 +98,18 @@ backTop() {
     }
 }
 ```
+#### js判断移动端是Android还是IOS
+```
+getPhoneSystem() {
+  var u = navigator.userAgent,system;
+  var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //g
+  var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+  if (isAndroid) {
+    system = 'android';
+  }
+  if (isIOS) {
+    system = 'ios';
+  }
+  localStorage.setItem('system', system)
+}
+```
