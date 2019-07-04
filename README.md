@@ -37,3 +37,4 @@
 + [关于移动端适配，你必须要知道的](<https://juejin.im/post/5cddf289f265da038f77696c?utm_source=gold_browser_extension>)
 + [印记中文](<https://docschina.org/>)
 + [[译]带你理解 Async/await](<https://segmentfault.com/a/1190000019493976>)
++ [JS事件循环机制（event loop）之宏任务/微任务](<https://juejin.im/post/5b498d245188251b193d4059>)
