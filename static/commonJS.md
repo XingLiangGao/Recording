@@ -113,3 +113,18 @@ getPhoneSystem() {
   localStorage.setItem('system', system)
 }
 ```
+#### JavaScript调试
+```
+//防止展开数据获取到的数据是最新的状态
+console.log(JSON.parse(JSON.stringify(arr)))
+//查看DOM对象的JavaScript对象的结构
+console.dir(document.getElementById('root))
+//只查看对象中指定的key和value
+console.table(userList, ['id', 'username', 'avator'])
+//打印一段代码的性能或者一个异步需要的时间
+console.time('timer1'
+setTimeout(() => {
+	console.timeEnd('timer1')
+}, 1000)
+
+```
