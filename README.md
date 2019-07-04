@@ -36,3 +36,4 @@
 + [vue组件间通信六种方式（完整版）](<https://juejin.im/post/5cde0b43f265da03867e78d3?utm_source=gold_browser_extension>)
 + [关于移动端适配，你必须要知道的](<https://juejin.im/post/5cddf289f265da038f77696c?utm_source=gold_browser_extension>)
 + [印记中文](<https://docschina.org/>)
++ [[译]带你理解 Async/await](<https://segmentfault.com/a/1190000019493976>)
