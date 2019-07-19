@@ -13,6 +13,7 @@
 8. [eslint基于vue配置](https://github.com/gyxyl/CG-Monthly/tree/master/static/eslint%E9%85%8D%E7%BD%AE)
 9. [js模块化](https://github.com/gyxyl/CG-Weekly/tree/master/static/js%E6%A8%A1%E5%9D%97%E5%8C%96)
 10. [react](https://github.com/gyxyl/Recording/tree/master/static/react)
+11. [bind,call,apply实现以及原理](https://github.com/gyxyl/Recording/tree/master/static/常用函数原理/bind-call-apply.js)
 
 ## View Article
 
