@@ -4,7 +4,7 @@ Function.prototype.mybind = function (context) {
     throw new TypeError("Error")
   }
   let _this = this
-  let args = [...arguments].slice(0)
+  let args = [...arguments].slice(1)
   return function Func() {
     if(this instanceof Func){
       return new _this(context, ...arguments)
@@ -22,7 +22,7 @@ Function.prototype.myapply = function(context){
   context = context || window
   context.fn = this
   let result
-  if(arguments[0]){
+  if(arguments[1]){
     result = context.fn(...arguments)
   }else{
     result = context.fn()
@@ -37,7 +37,7 @@ Function.prototype.prototype.mycall = function(context) {
     throw TypeError("Error")
   }
   context = context || window
-  let args = [...arguments].slice(0)
+  let args = [...arguments].slice(1)
   context.fn = this
   let result = context.fn(...args)
   delete context.fn
