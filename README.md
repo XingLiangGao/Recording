@@ -1,6 +1,3 @@
-# Recording
-![Monthly-banner](/assets/banner.jpg)
-
 ## Example
 
 1. [socket.io聊天室](https://github.com/gyxyl/CG-Weekly/tree/master/static/socket.io)
