@@ -1,14 +1,18 @@
-…… 
-[TOC] 
-……
+- [获取URL的查询参数](#获取URL的查询参数)
+- [生成随机十六进制代码（生成随机颜色）](#生成随机十六进制代码（生成随机颜色）)
+- [返回一个键盘](#返回一个键盘)
+- [移动端1px边框](#移动端1px边框)
 
 #### 获取URL的查询参数
 > q={};location.search.replace(/([^?&=]+)=([^&]+)/g,(_,k,v)=>q[k]=v);q;
+
 #### 生成随机十六进制代码（生成随机颜色）
 > '#' + Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, '0');
+
 #### 返回一个键盘
 > (_=>[..."`1234567890-=~~QWERTYUIOP[]\\~ASDFGHJKL;'~~ZXCVBNM,./~"].map(x=>(o+=`/${b='_'.repeat(w=x<y?2:' 667699'[x=["BS","TAB","CAPS","ENTER"][p++]||'SHIFT',p])}\\|`,m+=y+(x+'    ').slice(0,w)+y+y,n+=y+b+y+y,l+=' __'+b)[73]&&(k.push(l,m,n,o),l='',m=n=o=y),m=n=o=y='|',p=l=k=[])&&k.join`
 `)()
+
 #### 移动端1px边框
 ```
 div:before {
@@ -36,6 +40,7 @@ div:before {
     color: hsla(0, 0%, 100%, 0.4);
 }
 ```
+
 #### js监听目标元素内部变化
 ```
 var container = document.querySelector("target")
@@ -43,6 +48,7 @@ container.addEventListener('DOMSubtreeModified',function() {
     ...someThin
 }, false);
 ```
+
 #### ajax get请求向现有URL的末尾添加查询字符串参数
 ```
 function addURLParam(url, name, value) {
@@ -51,6 +57,7 @@ function addURLParam(url, name, value) {
     return url;
 }
 ```
+
 #### 创建XHR对象
 ```
 function createXHR() {
@@ -76,6 +83,7 @@ function createXHR() {
     }
 }
 ```
+
 #### 使用XHR创建一个get请求
 ```
 var xhr = createXHR();
@@ -91,6 +99,7 @@ if (xhr.readyState == 4) {
 xhr.open("get", "example.php", true);
 xhr.send(null);
 ```
+
 #### 回到页面顶部（带动画）
 ```
 backTop() {
@@ -102,6 +111,7 @@ backTop() {
     }
 }
 ```
+
 #### js判断移动端是Android还是IOS
 ```
 getPhoneSystem() {
@@ -117,6 +127,7 @@ getPhoneSystem() {
   localStorage.setItem('system', system)
 }
 ```
+
 #### JavaScript调试
 ```
 //防止展开数据获取到的数据是最新的状态
@@ -135,6 +146,7 @@ setTimeout(() => {
 }, 1000)
 
 ```
+
 #### touch.js 文件
 ```
 export default function vueTouch(el,binding,type){//触屏函数
@@ -202,6 +214,7 @@ vueTouch.prototype={
     }
 };
 ```
+
 #### main.js 文件
 ```
     import Vue from 'vue'
@@ -243,6 +256,7 @@ vueTouch.prototype={
         }
     })
 ```
+
 #### 时间戳的转化
  ```
 function format(date, pattern) {
@@ -275,6 +289,7 @@ $('input').blur(function(){
     }, 100);
 })
 ```
+
 #### 解决安卓软键盘遮挡住input
 ```
 if (/Android/gi.test(navigator.userAgent)) {
