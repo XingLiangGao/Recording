@@ -5,7 +5,7 @@
 3. [基于express搭建的node简易后台管理](https://github.com/gyxyl/CG-Weekly/tree/master/static/nodejs)
 4. [koa-demo](https://github.com/gyxyl/CG-Weekly/tree/master/static/koa-demo)
 5. [Nunjucks](https://github.com/gyxyl/CG-Weekly/tree/master/static/use-nunjucks)
-6. [JS通用代码（持续更新ing）](https://github.com/gyxyl/CG-Monthly/blob/master/static/commonJS.md)
+6. [JS通用代码](https://github.com/gyxyl/CG-Monthly/blob/master/static/commonJS.md)
 7. [gulp](https://github.com/gyxyl/CG-Monthly/tree/master/static/gulp)
 8. [eslint基于vue配置](https://github.com/gyxyl/CG-Monthly/tree/master/static/eslint%E9%85%8D%E7%BD%AE)
 9. [js模块化](https://github.com/gyxyl/CG-Weekly/tree/master/static/js%E6%A8%A1%E5%9D%97%E5%8C%96)
