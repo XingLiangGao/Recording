@@ -11,3 +11,5 @@
 9. [js模块化](https://github.com/gyxyl/CG-Weekly/tree/master/static/js%E6%A8%A1%E5%9D%97%E5%8C%96)
 10. [react](https://github.com/gyxyl/Recording/tree/master/static/react)
 11. [bind,call,apply实现以及原理](https://github.com/gyxyl/Recording/tree/master/static/常用函数原理/bind-call-apply.js)
+12. [前端优化](https://github.com/gyxyl/Recording/blob/master/static/%E5%89%8D%E7%AB%AF%E4%BC%98%E5%8C%96.md)
+13. [JS 循环](https://github.com/gyxyl/Recording/blob/master/static/JS%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86.md)
