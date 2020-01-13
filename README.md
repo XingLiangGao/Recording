@@ -13,4 +13,5 @@
 11. [bind,call,apply实现以及原理](https://github.com/gyxyl/Recording/tree/master/static/常用函数原理/bind-call-apply.js)
 12. [前端优化](https://github.com/gyxyl/Recording/blob/master/static/%E5%89%8D%E7%AB%AF%E4%BC%98%E5%8C%96.md)
 13. [JS 循环](https://github.com/gyxyl/Recording/blob/master/static/JS%20%E5%BE%AA%E7%8E%AF%E9%81%8D%E5%8E%86.md)
-13. [git 命令](https://github.com/gyxyl/Recording/blob/master/static/git%20%E5%91%BD%E4%BB%A4.md)
+14. [git 命令](https://github.com/gyxyl/Recording/blob/master/static/git%20%E5%91%BD%E4%BB%A4.md)
+15. [前端报错日志收集](https://github.com/gyxyl/Recording/blob/master/static/%E5%89%8D%E7%AB%AF%E6%8A%A5%E9%94%99%E6%97%A5%E5%BF%97%E6%94%B6%E9%9B%86.md)
