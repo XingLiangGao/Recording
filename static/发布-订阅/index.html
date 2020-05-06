@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+</body>
+<script type="text/javascript">
+	//发布者
+	class Publisher {
+		constructor() {
+			this.observers =  []
+			console.log('created')
+		}
+		// 增加订阅者
+		add(observer) {
+			this.observers.push(observer)
+		}
+		//移除订阅者
+		remove(observer) {
+			this.observers.forEach((item, index) => {
+				if (item === observer) {
+					this.observers.splice(i, 1)
+				}
+			})
+		}
+		// 通知所有订阅者
+		notify() {
+			this.observers.forEach((observer) => {
+				observer.update(this)
+			})
+		}
+	}
+	//订阅者
+	class Observer {
+		constructor() {
+			console.log('created observer')
+		}
+		update() {
+			console.log('observer get')
+		}
+	}
+
+	// const jack = new Observer()
+	// const dixi = new Observer()
+	// const gugu = new Observer()
+	// const mengent = new Publisher()
+
+	// mengent.add(jack)
+	// mengent.add(dixi)
+	// mengent.add(gugu)
+
+	// mengent.notify()
+
+	//------------------------------
+
+	//上面两个类是基础类，可以扩展
+
+	// 产品类
+	class PrdPublisher extends Publisher {
+		constructor() {
+			super()
+			// 初始化需求文档
+			this.prdState = null
+			// 初始化开发群
+			this.observers = []
+		}
+		// 获取当前需求文档
+		getState() {
+			return this.prdState
+		}
+		// 改变prdState的值
+		setState(state) {
+			this.prdState = state
+			// 需求文档更新，立即通知所有开发者
+			this.notify()
+		}
+	}
+	// 开发类
+	class DeveloperObserver extends Observer {
+		constructor() {
+			super()
+			this.prdState = null
+		}
+		// 重写具体的update方法
+		update(publisher) { //这里的参数是基础类里传的this
+			// 更新文档
+			this.prdState = publisher.getState()
+			// 调用工作函数
+			this.work()
+		}
+		work() {
+			// 获取文档
+			const prd = this.prdState
+			// 开始996
+			console.log(this)
+		}
+	}
+
+	const cxx = new DeveloperObserver()
+	const gxl = new DeveloperObserver()
+	const wj = new DeveloperObserver()
+
+	const cp = new PrdPublisher()
+
+	const prd  = {
+		//需求
+	}
+	// 拉群
+	cp.add(cxx)
+	cp.add(gxl)
+	cp.add(wj)
+
+	// 发文档@所有人
+	cp.setState(prd)
+</script>
+</html>
