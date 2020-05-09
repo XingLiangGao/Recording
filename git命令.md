@@ -139,6 +139,9 @@ Git 的分支实质上仅是包含所指对象校验和（长度为 40 的 SHA-1
 储藏工作
 > $ git stash
 
+设置储藏信息
+> $ git stash save 'message..'
+
 储藏未跟踪的文件
 > $ git stash -u
 
@@ -153,6 +156,9 @@ Git 的分支实质上仅是包含所指对象校验和（长度为 40 的 SHA-1
 
 应用并移除储藏
 > $ git stash pop [储藏名字]
+
+移除所有储藏
+> $ git stash clear
 
 ### git Rebasing
 
