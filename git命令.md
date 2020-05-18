@@ -1,4 +1,7 @@
+# git 常见命令
+
 ## git 配置
+
 设置用户名
 > $ git config --global user.name "John Doe"
 
@@ -11,19 +14,22 @@
 > $ git config --list
 
 ## git 命令
+
 ### 初始化仓库
+
 > $ git init
 
 ### git 仓库
+
 如果你正在使用 HTTPS URL 来推送，Git 服务器会询问用户名与密码。 默认情况下它会在终端中提示服务器是否允许你进行推送。
 
 如果不想在每一次推送时都输入用户名与密码，你可以设置一个 “credential cache”。 最简单的方式就是将其保存在内存中几分钟，可以简单地运行 git config --global credential.helper cache 来设置它。
 
 克隆仓库
-> $ git clone https://github.com/gyxyl
+> $ git clone <https://github.com/gyxyl>
 
 克隆仓库并重命名
-> $ git clone https://github.com/gyxyl MyWarehouse
+> $ git clone <https://github.com/gyxyl> MyWarehouse
 
 添加远程仓库
 > $ git remote add [shortname] [url]
@@ -32,6 +38,7 @@
 > $ git fetch [remote-name]
 
 ### git 提交
+
 跳过使用暂存区域
 > $ git commit -a
 
@@ -41,6 +48,7 @@ Git 会自动把所有已经跟踪过的文件暂存起来一并提交，从而�
 > $ git commit --amend
 
 ### git 撤销
+
 取消暂存的文件
 > $ git reset HEAD [file]
 
@@ -48,32 +56,37 @@ Git 会自动把所有已经跟踪过的文件暂存起来一并提交，从而�
 
 硬重置直接将整体状态直接重置到特定提交之前的状态
 
-**在命令中加入 --hard 会导致工作目录中所有的当前进度丢失**
+注意：**在命令中加入 --hard 会导致工作目录中所有的当前进度丢失**
 
 撤销对文件的修改
 > $ git checkout -- [file]
 
 ### git Reverting
+
 另一种撤销修改的方法是执行 git revert。
 
 创建一个包含已还原修改的新提交
 > $ git revert [hash]
 
 ### git Cherry-picking
+
 对一个提交执行 cherry-pick 时，我们会在活动分支上创建一个新的提交，其中包含由拣选出来的提交所引入的修改。
 
 > $ git cherry-pick [hash]
 
 ### git Reflog
+
 可以展示已经执行过的所有动作的日志。包括合并、重置、还原，基本上包含你对你的分支所做的任何修改。
 
 > $ git reflog
 
 ### git 对比
+
 查看修改的文件内容
 > $ git diff [文件名]
 
 ### git 标签
+
 Git 使用两种主要类型的标签：轻量标签（lightweight）与附注标签（annotated）。
 
 附注标签中包含打标签者的名字、电子邮件地址、日期时间；还有一个标签信息；
@@ -99,6 +112,7 @@ Git 使用两种主要类型的标签：轻量标签（lightweight）与附注�
 > $ git tag -d [标签名]
 
 ### git 分支
+
 Git 的分支实质上仅是包含所指对象校验和（长度为 40 的 SHA-1 值字符串）的文件，所以它的创建和销毁都异常高效。 创建一个新分支就相当于往一个文件中写入 41 个字节（40 个字符和 1 个换行符），指生成一次快照
 
 查看分支图
@@ -134,6 +148,7 @@ Git 的分支实质上仅是包含所指对象校验和（长度为 40 的 SHA-1
 使用 no-fast-forward 合并时，Git 会在当前活动分支上创建新的 merging commit。
 
 ### git 储藏
+
 储藏会处理工作目录的脏的状态——即跟踪文件的修改与暂存的改动——然后将未完成的修改保存到一个栈上，而你可以在任何时候重新应用这些改动。
 
 储藏工作
@@ -172,11 +187,13 @@ git rebase 会将当前分支的提交复制到指定的分支之上。
 * drop：移除该提交。
 
 ### git fetch 与 git pull 区别
+
 如果你使用 clone 命令克隆了一个仓库，命令会自动将其添加为远程仓库并默认以 “origin” 为简写。 所以，git fetch origin 会抓取克隆（或上一次抓取）后新推送的所有工作。 必须注意 git fetch 命令会将数据拉取到你的本地仓库——它并不会自动合并或修改你当前的工作。 当准备好时你必须手动将其合并入你的工作。
 
 运行 git pull 通常会从最初克隆的服务器上抓取数据并自动尝试合并到当前所在的分支。
 
 ### git merge 与 git rebase 区别
+
 git merge 会把两个分支的最新快照以及二者最近的共同祖先进行三方合并，合并的结果是生成一个新的快照（并提交）。
 
-git rebase 可以提取在分支中引入的补丁和修改，然后在另一个分支的基础上应用一次。 在 Git 中，这种操作就叫做 变基。 
+git rebase 可以提取在分支中引入的补丁和修改，然后在另一个分支的基础上应用一次。 在 Git 中，这种操作就叫做 变基。

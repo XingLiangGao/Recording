@@ -1,4 +1,4 @@
-## Example
+# Example
 
 1. [socket.io聊天室](./static/socket.io)
 2. [promise、async异步流程](./static/异步)
@@ -11,10 +11,6 @@
 9. [js模块化](./static/js模块化)
 10. [react](./static/react)
 11. [bind,call,apply实现以及原理](./static/常用函数原理/bind-call-apply.js)
-12. [前端优化](./前端优化.md)
-13. [js循环](./js循环.md)
-14. [git命令](./git命令.md)
-15. [前端报错日志收集](./前端报错日志收集.md)
-16. [linux 日常命令](./linux日常命令.md)
-17. [使用AST改变函数输入值](./static/ast/index.js)
-18. [正则笔记](./正则.md)
+12. [前端报错日志收集](./前端报错日志收集.md)
+13. [使用AST改变函数输入值](./static/ast/index.js)
+14. [正则笔记](./正则.md)
