@@ -206,3 +206,7 @@ git rebase 会将当前分支的提交复制到指定的分支之上。
 git merge 会把两个分支的最新快照以及二者最近的共同祖先进行三方合并，合并的结果是生成一个新的快照（并提交）。
 
 git rebase 可以提取在分支中引入的补丁和修改，然后在另一个分支的基础上应用一次。 在 Git 中，这种操作就叫做 变基。
+
+## 学习 git 网站
+
+[learngitbranching](https://learngitbranching.js.org/?locale=zh_CN)
