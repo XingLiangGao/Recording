@@ -18,7 +18,7 @@ node 7.x 版本需要加 `-harmony`支持 async
 
 在使用`koa-router`中间件时注意方法的调用。
 
-## 请求数据获取(./demo/request)
+## [请求数据获取](./demo/request)
 
 ### get 请求
 
@@ -34,7 +34,7 @@ koa2 没有封装获取参数的方法，需要通过解析上下文 context 中
 
 对于POST请求的处理，koa-bodyparser中间件可以把koa2上下文的formData数据解析到ctx.request.body中
 
-## 访问静态资源服务器(./demo/static-server)
+## [访问静态资源服务器](./demo/static-server)
 
 一个http请求访问web服务静态资源，一般响应结果有三种情况
 
