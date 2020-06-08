@@ -62,3 +62,14 @@ koa2 没有封装获取参数的方法，需要通过解析上下文 context 中
 ### koa-static中间件使用
 
 通过 use 解析中间件，传入绝对路径
+
+## [cookie-session](./demo/cookie-session)
+
+### cookie
+
+koa提供了从上下文直接读取、写入cookie的方法
+
+* ctx.cookies.get(name, [options]) 读取上下文请求中的cookie
+* ctx.cookies.set(name, value, [options]) 在上下文中写入cookie
+
+### session
