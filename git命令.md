@@ -233,6 +233,16 @@ git merge 会把两个分支的最新快照以及二者最近的共同祖先进�
 
 git rebase 可以提取在分支中引入的补丁和修改，然后在另一个分支的基础上应用一次。 在 Git 中，这种操作就叫做 变基。
 
+### 将当前分支的commit合并到其他分支
+
+1. 使用cherry-pick，上面有介绍
+2. 使用 rebase
+  
+// startpoint 第一个 commit id, endpoint 最后一个 commit id，branchName 就是目标分支了。
+> $ git rebase [startpoint] [endpoint] --onto [branchName]
+
+这里不能使用 git rebase -i [startpoint] [endpoint]，这种会将不需要合并的commit的其他内容带过来。
+
 ## 学习 git 网站
 
 [learngitbranching](https://learngitbranching.js.org/?locale=zh_CN)
