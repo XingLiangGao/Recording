@@ -1,16 +1,1 @@
-# Example
-
-1. [socket.io聊天室](./static/socket.io)
-2. [promise、async异步流程](./static/异步)
-3. [基于express搭建的node简易后台管理](./static/nodejs)
-4. [koa-demo](./static/koa-demo)
-5. [Nunjucks](./static/use-nunjucks)
-6. [JS通用代码](./static/commonJS.md)
-7. [gulp](./static/gulp)
-8. [eslint基于vue配置](./static/eslint配置)
-9. [js模块化](./static/js模块化)
-10. [react](./static/react)
-11. [bind,call,apply实现以及原理](./static/常用函数原理/bind-call-apply.js)
-12. [前端报错日志收集](./前端报错日志收集.md)
-13. [使用AST改变函数输入值](./static/ast/index.js)
-14. [正则笔记](./正则.md)
+这里什么也没有
