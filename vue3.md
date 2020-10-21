@@ -178,3 +178,5 @@ watchEffect(
 ## 其余问题
 
 1. 在单文件组件中测试 `watchEffect`
+
+![爱你](./assets/dog.png)
