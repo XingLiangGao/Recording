@@ -9,8 +9,6 @@ const app = Vue.createApp({})
 app.config.globalProperties.$http = () => {}
 ```
 
-问题： 不能直接定义吗？
-
 ## provide / inject
 
 当一个组价拥有深层嵌套时，子组件想要使用父组件中的某些内容。如果使用 `prop` 传递，那这个数据需要经过每一层组件的传递，有点繁琐。
@@ -175,8 +173,31 @@ watchEffect(
 )
 ```
 
-## 其余问题
+## other change
 
-1. 在单文件组件中测试 `watchEffect`
+vue 2.x key 不能设置在 `<template>` 标签上，vue 3.x 可以。
+
+3.x 版本中 v-if 总是优先于 v-for 生效。
+
+3.x 新的自定义指令 API
+
+```js
+const MyDirective = {
+  beforeMount(el, binding, vnode, prevVnode) {}, // 绑定到元素之后调用。只发生一次。
+  mounted() {}, // 元素插入父 DOM 后发生。
+  beforeUpdate() {}, // 元素本身更新之前调用。
+  updated() {}, // 组件和子级被更新，就会调用。
+  beforeUnmount() {}, // 卸载元素之前。
+  unmounted() {} // 卸载之后，只调用一次。
+}
+```
+
+3.x 的 `data` 选项只能是 `function`，不再接受 `object`。和 `mixin` 合并时，将进行**浅层次**合并，即只合并组件内定义过的。
+
+过渡类名 `v-enter` 修改为 `v-enter-from`、过渡类名 `v-leave` 修改为 `v-leave-from`。
+
+`<template>` 没有特殊指令的标记 (`v-if/else-if/else`、`v-for` 或 `v-slot`) 现在被视为普通元素，并将生成原生的 `<template>` 元素，而不是渲染其内部内容。
+
+`template`：内容模板元素，通过 js 在内容模板写入数据，然后插入到页面预留的结构当中。
 
 ![爱你](./assets/dog.png)
