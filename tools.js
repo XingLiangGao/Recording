@@ -58,3 +58,13 @@ Validator.prototype.start = function() { // 执行检验
     if (msg) return msg; // 如果未通过检验，返回错误提示
   }
 }
+
+
+/**
+ * 防抖
+ */
+
+
+/**
+ * 节流
+ */

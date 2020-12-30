@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    class Register {
+      constructor(cards, joinArr) {
+        this.cards = cards
+        this.re = {}
+        this.joinArr = joinArr
+        this.joiner = {}
+        this.init()
+      }
+
+      // 初始化
+      init() {
+        for (const i in this.cards) {
+          const item = this.cards[i];
+          this.re[item] = 4
+        }
+        if (this.joinArr) {
+          const cardsAmount = Math.floor(this.cards.length*4/this.joinArr.length)
+          for (const i in this.joinArr) {
+            this.joiner[this.joinArr[i]] = cardsAmount
+          }
+        }
+
+        this.log()
+      }
+      // 打出牌执行的方法，传入字符串
+      print(str, joiner) {
+        let printArray = str.split('')
+        for (const i in printArray) {
+          this.re[printArray[i]]--
+        }
+        if (joiner) {
+          this.joiner[joiner] = this.joiner[joiner] - printArray.length
+        }
+        this.log()
+      }
+      // 重置牌数
+      reset() {
+        this.init()
+        this.log()
+      }
+      // 输入日志
+      log() {
+        console.log('当前牌型是：', this.re)
+        if (this.joinArr) {
+          console.log('角色剩余牌数：', this.joiner)
+        }
+      }
+    }
+
+    // 实例化
+    let cby = new Register(['2','3','4','5','6','7','8','9','10','J','Q','K','A'], ['yue', 'xing', 'yun'])
+  </script>
+</body>
+</html>
