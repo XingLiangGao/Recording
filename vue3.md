@@ -173,6 +173,11 @@ watchEffect(
 )
 ```
 
+watch和watchEffect的区别：
+1. watchEffect会自执行一次，像watch加了immediate
+2. watchEffect是自动跟踪副作用中的依赖，如果其中一个依赖发生了改变，重新执行副作用
+3. watch副作用的参数可以获取到监听的当前值和上一次值
+
 ## other change
 
 vue 2.x key 不能设置在 `<template>` 标签上，vue 3.x 可以。
